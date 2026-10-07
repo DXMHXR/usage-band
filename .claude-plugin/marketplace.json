@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "usage-band",
+  "description": "Claude Code mod: a one-row usage band above the prompt.",
+  "owner": { "name": "DXMHXR", "url": "https://github.com/DXMHXR" },
+  "plugins": [
+    {
+      "name": "usage-band",
+      "description": "Band above the prompt: 5h/7d rate-limit bars with pace marker and reset countdowns, context window fill, session tokens in/out and cost",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
